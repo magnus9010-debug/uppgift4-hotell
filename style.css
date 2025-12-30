@@ -60,12 +60,43 @@ main {
     background-color: white;
     border-radius: 30px;
     height: 510px;
-    align-content: center;
+    justify-content: center;
     padding: 10px;}
 /*Bild på karta. "Jag vet inte hur jag får den till mitten"*/
 .big-box img {
     height: 500px;
 }
+
+
+/* Kontaktsida */
+.contact-box {
+    max-width: 600px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    font-family: inherit;
+}
+
+form button {
+    background-color: #2f6385;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #244e68;
+}
+
 
 
 
