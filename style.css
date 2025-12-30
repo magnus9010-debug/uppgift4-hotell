@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f7e6c3;}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #2f6385;
+    padding: 10px;}
+
+
+/*Bildens storkel på sidan. 
+"Jag ville ha så det inte är en kant runt hela. Men lyckades inte"*/
+header img {
+    height: 160px;}
+
+header h1 {
+    margin: 0 auto;
+    color: black;
+    /*Större text för sidans rubrik, samt att jag lade till skugga*/
+    font-size: 90px; 
+    text-shadow: 2px 2px 4px #000;}
+
+
+
+/*Rutan för navigationerna, samt textens färg och storlek*/
+nav {
+    background-color: #5b5f77;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;}
+
+
+
+main {
+    margin: 20px;}
+
+
+
+/*Dessa två är bara på Startsidan*/
+.two-columns {
+    display: flex;
+    gap: 20px;}
+.box {
+    background-color: #d4d8e0;
+    border-radius: 20px;
+    padding: 80px;
+    width: 50%;}
+
+
+
+/* Detta är den stora rutan på Hitta-sidan */
+.big-box {
+    background-color: white;
+    border-radius: 30px;
+    height: 510px;
+    align-content: center;
+    padding: 10px;}
+/*Bild på karta. "Jag vet inte hur jag får den till mitten"*/
+.big-box img {
+    height: 500px;
+}
+
+
+
+footer {
+    background-color: #5b5f77;
+    height: 60px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;}
